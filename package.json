@@ -1,7 +1,8 @@
 {
-  "name": "nextjs-github-packages-lesson",
+  "name": "@akito-10/nextjs-github-packages-lesson",
   "version": "0.1.0",
   "private": true,
+  "main": "src/index.ts",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -20,5 +21,8 @@
     "eslint": "8.25.0",
     "eslint-config-next": "12.3.1",
     "typescript": "4.8.4"
+  },
+  "publishConfig": {
+    "@akito-10:registry": "https://npm.pkg.github.com/akito-10"
   }
 }
